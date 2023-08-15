@@ -7,20 +7,64 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
     <title>apple.com</title>
     <style>
-        .container{
+        .container{       /* this container for choosing the country location.*/
             display: flex;
             align-items: center;
             background-color: rgb(176, 231, 231);
             font-family: 'Roboto Condensed', sans-serif;
-
-            
-
         }
+
+
+
+        /* Super header */
+
+
+        .super-header {
+            background-color: #fff;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        .menu-list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            white-space: nowrap; /* Prevent line breaks */
+        }
+
+        .menu-item {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu-link {
+            text-decoration: none;
+            color: #0e0d0d;
+            padding: 0 15px; /* Add padding for spacing between items */
+        }
+
+
+        .logo {
+            max-height: 30px; /* Set the desired height for your logo */
+            vertical-align: middle;
+        }
+
+
+
     </style>
     
 </head>
 <body>
-    <div class="container">
+
+
+    
+    <div class="container">  
+        <!-- In this we have added the choosing country option.
+            In this in paragraph tag we are using &nbsp, that is 
+            used to give the space in our main code.
+        -->
     <p> Choose another country or regin to see  coontent specific 
         to your location and shop online.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -48,6 +92,62 @@
     </select>
     <button> Continue </button>
     <button> X </button>
+    </div>
+
+    <!-- That div used to added super header link
+        all the option available like symbol of mac, Store, Mac, iPad, 
+        iPhone, Watch, Vision, AirPods, TV & Home Entertainment, Accessories, 
+        Support, and serach box, add to cart option.
+    -->
+
+    <div class="super-header">
+        <ul class="menu-list">
+
+            <!-- Adding Logo in the li (Start)-->
+
+            <li class="menu-item">
+                <a class="menu-link" href="#">
+                    <img class="logo" src="logo.jpeg" alt="Store Logo">
+                </a>
+            </li>
+
+
+            <!-- End of Adding logo-->
+
+
+            <li class="menu-item"><a class="menu-link" href="#">Store</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">Mac</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">iPad</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">iPhone</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">Watch</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">Vision</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">AirPods</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">TV & Home</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">Entertainment</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">Accessories</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">Support</a></li>
+
+            <!-- Adding  serach log in super header -->
+            
+            <li class="menu-item">
+                <a class="menu-link" href="#">
+                    <img class="logo" src="search.jpg" alt="Search">
+                </a>
+            </li>
+
+            <!-- Adding Bag Logo -->
+            <li class="menu-item">
+                <a class="menu-link" href="#">
+                    <img class="logo" src="bag.jpeg" alt="Cart">
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- adding MAC or iPad for collage student -->
+    <div>
+        <h2>Save on Mac or iPad <br>for collage.</h2>
     </div>
 </body>
 </html>
