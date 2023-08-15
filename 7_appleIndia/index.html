@@ -5,6 +5,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
     <title>apple.com</title>
     <style>
         .container{       /* this container for choosing the country location.*/
@@ -12,9 +13,46 @@
             align-items: center;
             background-color: rgb(176, 231, 231);
             font-family: 'Roboto Condensed', sans-serif;
+           /* margin-bottom: 20px;  Add margin at the bottom of this div  */
+        }
+
+        /* container 1 start*/
+
+        .container1 {
+            background-color: aquamarine;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 30px;
+            margin-top: 20px; /* Add margin at the top of this div */
+        }
+
+        .container1 h2 {
+            margin: 0;
+        }
+
+        .container1 p {
+            margin: 10px 0;
+        }
+
+        .container1 button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .container1 img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
         }
 
 
+        /*container 1 end */
 
         /* Super header */
 
@@ -146,8 +184,35 @@
 
 
     <!-- adding MAC or iPad for collage student -->
-    <div>
-        <h2>Save on Mac or iPad <br>for collage.</h2>
+
+    <div class="container1">
+        <h2>Save on Mac or iPad <br>for college.</h2>
+        <p>Plus get a gift card up to $150. <sup>1</sup></p>
+        <button> Shop now &gt; </button>
+        <img src="student_offer.JPG" alt="Student Offer">
     </div>
+
+<!-- adding MAcbook Air 15" -->
+
+
+
+    <div class="container1">
+        <h2>MacBook Air 15<sup>"</sup></h2>
+        <p>Impressively big. Impossibly thin.</p>
+        
+        <div class="button-container">
+            <button> Learn more &gt; </button>
+            <button> Buy &gt; </button>
+        </div>
+        
+        <img src="mac_air_15.JPG" alt="MacBook Air 15">
+    </div>
+
+
+    <!-- -->
+
+
+
+
 </body>
 </html>
