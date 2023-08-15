@@ -139,3 +139,44 @@ p img {
     margin: 0 -10px; /* Negative margin to counteract the margin on child elements */
 }
 
+
+
+
+/* Code for sliding image in page*/
+
+.slider-container {
+    overflow: hidden; /* Hide overflow to create the sliding effect */
+    width: 100%;
+    max-width: 800px; /* Adjust to your desired width */
+    margin: 0 auto; /* Center the slider */
+}
+
+.slider {
+    display: flex; /* Display images in a row */
+    transition: transform 0.5s ease-in-out; /* Add smooth transition */
+}
+
+.slider img {
+    width: 100%; /* Ensure images fill the slider container */
+    height: auto;
+}
+
+
+
+/* Add this CSS code to your existing styles or create a new CSS file */
+.developer-footer {
+    background-color: #c9dbf3;
+    padding: 20px;
+    text-align: center;
+}
+
+.developer-info img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.developer-info p {
+    margin: 0;
+    font-size: 16px;
+}
