@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-16">
     <!-- Adding Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
-
     <title>apple.com</title>
     <style>
         .container{       /* this container for choosing the country location.*/
@@ -31,6 +31,18 @@
             width: 1210px; /* Set a fixed width */
             height: 500px; /* Set a fixed height */
             margin: 10px; /* Add margin around the div */
+        }
+
+        .container3{
+            background-color:#0e0d0d;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 30px;
+            width: 1200px; /* Set a fixed width */
+            height: 620px; /* Set a fixed height */
+            margin: 20px; /* Add margin around the div */
         }
 
         .container1 h2 {
@@ -95,6 +107,76 @@
             vertical-align: middle;
         }
 
+
+
+        /* this container and box for the six div used in out ppage 
+        for iPhine14 Pro, iPad Pro, Watch, Vision Pro, Trade In, Card.*/
+
+
+
+        .container_6_div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            color: #fff;
+        }
+
+        .box_6_div {
+            width: calc(50% - 10px); /* Adjust width as needed, considering margin */
+            margin: 5px; /* Add margin to create spacing */
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-sizing: border-box;
+        }
+
+
+        .container_6_div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            color: #fff;
+            width: 100%;
+            max-width: 100vw;
+            margin: 20px 0;
+            padding: 0 20px;
+        }
+
+        .box_6_div {
+            width: calc(50% - 10px); /* Adjust width as needed, considering margin */
+            margin: 5px; /* Add margin to create spacing */
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-sizing: border-box;
+        }
+
+        .box_6_div img {
+            max-width: 100%;
+            height: auto;
+        }
+
+
+
+        /* making paragraph image equal to the paragraph size.*/
+        p {
+            display: inline-flex; /* Make the paragraph an inline-flex container */
+            align-items: center; /* Center align items vertically */
+        }
+
+        p img {
+            max-height: 25px; /* Set the image's max height to match the paragraph's height */
+            margin-right: 5px; /* Add spacing between the image and text */
+        }
+
+        .button-container a {
+            padding: 10px 20px;
+            background-color: #007bff; /* Blue color */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none; /* Remove default underline */
+            margin-right: 10px; /* Add spacing between buttons */
+        }
 
 
     </style>
@@ -233,7 +315,78 @@
     </div>
 
 
-    
+    <!-- Adding six div for inserting the iPhoone14 Pro, iPad Pro, Watch and Vision Pro, amd Trade In, and Card -->
+
+
+    <div class="container_6_div container3">
+        <div class="box_6_div">
+            <h2>iPhone 14 Pro</h2>
+            <p>Pro. Beyond.</p>
+            <br/>
+            <!--<button> Learn more &gt; </button>
+            <button> Buy &gt; </button> -->
+            <div class="button-container">
+                <button> Learn more &gt; </button>
+                <button> Buy &gt; </button>
+            </div>
+            <br/>
+            <br/>
+            <br/>
+            <img src="i14pro.JPG" alt="iPhone 14 Pro">
+        </div>
+        <div class="box_6_div">
+            <h2>iPad Pro</h2>
+
+            <p>
+                Supercharged by &nbsp;
+                <img src="m2.JPG" alt="M2 Chip">
+            </p>
+            <br/>
+            
+            <button> Learn more &gt; </button>
+            <button> Buy &gt; </button>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <img src="mac.JPG" alt="ipadPro">
+        </div>
+
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+        <div class="box_6_div">
+            
+            <img src="watch.jpg" alt="Watch">
+            
+        </div>
+        
+
+        <div class="box_6_div">
+            <img src="vision.jpg" alt="Vision Pro">
+        </div>
+
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+        <div class="box_6_div">
+            <img src="trade.jpg" alt="Trade In">
+        </div>
+        <div class="box_6_div">
+            <img src="card.jpg" alt="Card">
+        </div>
+    </div>
 
 
 
