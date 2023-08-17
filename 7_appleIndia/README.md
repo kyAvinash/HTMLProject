@@ -1,4 +1,4 @@
-# Applr.com frontPage 
+# Apple.com frontPage 
 This Project is Part of 50+ html and css project challenge.
 
 ![apple_page-0001](https://github.com/kyAvinash/HTMLProject/assets/141410339/689c1562-e9f3-4900-acf4-61243c65380f)
