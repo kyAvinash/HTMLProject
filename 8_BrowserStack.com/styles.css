@@ -1,0 +1,65 @@
+/* Style sheet for Browserstack.com*/
+.massage{
+    display: flex;
+    background-color: rgb(4, 80, 110);
+    margin-left: auto;
+    font-family: 'Mukta', sans-serif;
+    /*font-family: 'Roboto Condensed', sans-serif;*/
+}
+.massage p{
+    padding-left: 275px;
+    color: #ffffff;
+}
+.massage a{
+    color:#ffffff;
+}
+
+/* this all header option on the BrowserStack */
+.header{
+    background-color: rgb(5, 5, 68);
+}
+
+.menu-list{
+    /*float:unset;*/
+    background-color: rgb(23, 61, 8);
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.menu-item{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+}
+
+.logo{
+    max-height: 30px;
+    vertical-align: middle;
+}
+
+.bth{
+    color: white;
+    background-color:  rgb(23, 61, 8);
+    border-color: #ffffff;
+}
+
+button:hover{
+    color:#ffffff;
+    background-color: blue;
+}
+
+.shiftright{
+            float: right;
+            margin: 3.9px;
+}
