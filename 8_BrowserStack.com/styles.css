@@ -19,6 +19,7 @@
     background-color: rgb(5, 5, 68);
 }
 
+
 .menu-list{
     /*float:unset;*/
     background-color: #333;
@@ -67,13 +68,67 @@ button:hover{
 .login_offer{
     background-color: rgb(164, 207, 241);
     width: auto;
-    height: 500px;
+    text-align: center; /* Center the content horizontally */
+    height: 600px;
     margin-top: 0%;
-
 }
 
-.login_offer h1{
+.login_offer h1 {
+    width: 100%; /* Make the heading span the full width */
+    margin: 0; /* Remove any default margins */
+    padding: 0; /* Remove any default padding */
     font-family: 'Mukta', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
     font-family: 'Rubik', sans-serif;
+    font-size: 60px;
+}
+
+.login_offer p{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #333;
+}
+
+.login_offer button{
+    color: blue;
+    background-color:  rgb(164, 207, 241);
+    border-color: blue;
+    height:50px;
+    width:220px;
+}
+
+.login_offer button:hover{
+    color:#ffffff;
+    background-color: blue;
+}
+
+
+.testWebsite{
+     background-color: red; 
+    width: 750px;
+    text-align: left; /* Center the content horizontally */
+    height: 260px;
+    margin-top: 0%;
+    float: left;
+}
+
+.testWebsite p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 85px;
+}
+
+.testMobileApps{
+    background-color: red;  
+    width: 500px;
+    text-align: left; /* Center the content horizontally */
+    height: 260px;
+    margin-top: 0%;
+    float: right;
+}
+
+.testMobileApps p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 85px;
 }
