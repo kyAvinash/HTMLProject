@@ -1,4 +1,8 @@
 /* Style sheet for Browserstack.com*/
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
 .massage{
     display: flex;
     background-color:#143452;
@@ -104,10 +108,10 @@ button:hover{
 
 
 .testWebsite{
-     background-color: red; 
+  /*  background-color: red;*/
     width: 750px;
     text-align: left; /* Center the content horizontally */
-    height: 260px;
+    height: 300px;
     margin-top: 0%;
     float: left;
 }
@@ -119,10 +123,10 @@ button:hover{
 }
 
 .testMobileApps{
-    background-color: red;  
-    width: 500px;
+   /* background-color: red;  */
+    width: 498px;
     text-align: left; /* Center the content horizontally */
-    height: 260px;
+    height: 320px;
     margin-top: 0%;
     float: right;
 }
@@ -132,3 +136,65 @@ button:hover{
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 85px;
 }
+
+
+
+.dashed-line {
+    border: none;
+    border-top: 1px solid #000;
+    flex-grow: 1;
+    margin-left: 10px;
+  }
+
+  .line-container {
+    display: flex;
+    align-items: center;
+  }
+  
+
+.testWebsite button{
+    color: blue;
+    background-color: white;
+    border-radius: 20px;
+    border-color: blue;
+    height:230px;
+    width:217px;
+    margin: auto;
+    
+}
+
+ .testWebsite button:hover{
+    color:black;
+    background-color:white;
+}
+
+  
+
+.testMobileApps button{
+    color: blue;
+    background-color: white;
+    border-radius: 20px;
+    border-color: blue;
+    height:230px;
+    width:205px;
+    margin: auto;
+}
+
+ .testMobileApps button:hover{
+    color:#000;
+    background-color: white;
+}
+
+.bigbr{
+/*background-color: #000;*/
+margin-left: 75px;
+}
+
+.bigbr p{
+    margin: 10px 0;
+}
+
+.left-image {
+    position: absolute;
+    left: 0;
+  }
