@@ -199,11 +199,42 @@ margin-left: 75px;
     left: 0;
     width: 1304px;
   }
-
+/*
 .benfits{
-    background-color: red;
-    position: absolute;
+    background-color: green;
     width: 1304px;
-    nav-down: root;
-
+    align-items: center;
+    justify-content: center;
 }
+.benfits div {
+ Adjust spacing between images 
+    align-items: center;
+  }
+*/
+.benfits {
+    overflow: auto; /* Clear floats */
+    background-color:white;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .benfits > div {
+    float: left; /* Float divs to the left */
+    width: 33.33%; /* Distribute equally in a row */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+    text-align: center; /* Center content within each div */
+    padding: 10px; /* Add padding around each div */
+  }
+  
+  .benfits h2 {
+    margin-top: 10px; /* Add some space above the heading */
+  }
+  
+  .benfits p {
+    margin: 10px 0; /* Add some space around the paragraph */
+  }
+  
+  .benfits h1 {
+    text-align: center; /* Center-align the heading */
+  }
+  
