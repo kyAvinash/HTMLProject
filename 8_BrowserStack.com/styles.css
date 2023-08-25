@@ -237,4 +237,15 @@ margin-left: 75px;
   .benfits h1 {
     text-align: center; /* Center-align the heading */
   }
+
+
+  .customersStories{
+    background-color: red;
+    overflow: auto;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
+  .customersStories h1 {
+    text-align: center; /* Center-align the heading */
+  }
   
