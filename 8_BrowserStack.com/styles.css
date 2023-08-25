@@ -197,4 +197,13 @@ margin-left: 75px;
 .left-image {
     position: absolute;
     left: 0;
+    width: 1304px;
   }
+
+.benfits{
+    background-color: red;
+    position: absolute;
+    width: 1304px;
+    nav-down: root;
+
+}
