@@ -197,7 +197,7 @@ margin-left: 75px;
 .left-image {
     position: absolute;
     left: 0;
-    width: 1304px;
+    width: 1903px;
   }
 /*
 .benfits{
@@ -213,12 +213,13 @@ margin-left: 75px;
 */
 .benfits {
     overflow: auto; /* Clear floats */
-    background-color:white;
+    background-color:white
     font-family: 'Inter', sans-serif;
     font-family: 'Roboto', sans-serif;
+    margin-top: 60px;
   }
   
-  .benfits > div {
+  .benfits div {
     float: left; /* Float divs to the left */
     width: 33.33%; /* Distribute equally in a row */
     box-sizing: border-box; /* Include padding and border in width calculation */
@@ -246,3 +247,7 @@ margin-left: 75px;
     font-family: 'Roboto', sans-serif;
   }
   
+
+
+  /* -----------------------------------------------*/
+
