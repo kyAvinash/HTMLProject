@@ -241,7 +241,7 @@ margin-left: 75px;
 
 
   .customersStories{
-    background-color: red;
+    background-color: rgb(173, 168, 168);
     overflow: auto;
     font-family: 'Inter', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -250,4 +250,56 @@ margin-left: 75px;
 
 
   /* -----------------------------------------------*/
+
+
+.customersStories {
+    text-align: center;
+    font-size: 14px;
+}
+
+.customer-story {
+    float: left;
+    width: 24%; /* Adjust the width as needed */
+    padding: 10px;
+    border: 1px solid #eeeded;
+    box-sizing: border-box;
+    margin-right: 1%; /* Add some spacing between customer stories */
+    margin-left: 6.5%; /* Add a left margin to create space from the left */
+    height: 0;
+    padding-bottom: 25%;
+    text-align: center; /* Center-align the content within the customer story */
+}
+
+.avatar img {
+    max-width: 50%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
+
+
+
+/* Updated CSS for the About Me section with a theme */
+.about-me {
+    background-color: #007BFF; /* Background color - blue */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+    color: #fff; /* Text color - white */
+}
+
+.about-me h2 {
+    font-size: 28px; /* Larger heading font size */
+    margin-bottom: 10px;
+}
+
+.about-me p {
+    font-size: 18px; /* Larger paragraph font size */
+    margin: 0;
+}
+
+/* Add a hover effect for better interactivity */
+.about-me:hover {
+    background-color: #134c88; /* Darker blue on hover */
+}
 
